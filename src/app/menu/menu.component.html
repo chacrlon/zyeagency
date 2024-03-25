@@ -1,0 +1,85 @@
+<div id="layoutSidenav_nav">
+    <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+        <div class="sb-sidenav-menu">
+            <div class="nav">
+                <div class="sb-sidenav-menu-heading">Menú principal</div>
+                <a class="nav-link" href="index.html">
+                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                    Nosotros
+                </a>
+                <div class="sb-sidenav-menu-heading">Interface</div>
+                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                    <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                    Aplicaciones
+                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                
+                <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                    <nav class="sb-sidenav-menu-nested nav" routerLinkActive="active">
+                        <li class="nav-item" routerLinkActive="active">
+                            <a class="nav-link" [routerLink]="['/livchat']">Livchat app</a>
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                            <a class="nav-link" [routerLink]="['/kitten']">KittenLive app</a>
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                            <a class="nav-link" [routerLink]="['/cream']">Cream app</a>
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                            <a class="nav-link" [routerLink]="['/suki']">Suki app</a>
+                        </li>
+                        <li class="nav-item" routerLinkActive="active">
+                            <a class="nav-link" [routerLink]="['/hily']">Hily app</a>
+                        </li>
+                    </nav>
+                </div>
+                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                    <div class="sb-nav-link-icon"><i class="fas fa-book-open"></i></div>
+                    Cursos
+                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                </a>
+                <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
+                    <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
+                            Curso de venta de contenido
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordionPages">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="login.html">Login</a>
+                                <a class="nav-link" href="register.html">Register</a>
+                                <a class="nav-link" href="password.html">Forgot Password</a>
+                            </nav>
+                        </div>
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
+                            Curso para ser streamer
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        
+                    </nav>
+                </div>
+
+
+
+
+
+
+
+                
+                <div class="sb-sidenav-menu-heading">Otros</div>
+                <a class="nav-link" href="charts.html">
+                    <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                    Preguntas frecuentes
+                </a>
+                <a class="nav-link" href="tables.html">
+                    <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                    Testimonios
+                </a>
+            </div>
+        </div>
+        <div class="sb-sidenav-footer">
+            <div class="small">Mensajito:</div>
+            Holis mi amor
+        </div>
+    </nav>
+</div>
