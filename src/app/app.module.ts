@@ -13,6 +13,8 @@ import { KittenComponent } from './kitten/kitten.component';
 import { CreamComponent } from './cream/cream.component';
 import { SukiComponent } from './suki/suki.component';
 import { HilyComponent } from './hily/hily.component';
+import { CursoComponent } from './curso/curso.component';
+
 
 const routes: Routes = [
   { path: '', redirectTo: '/nosotros', pathMatch: 'full' },
@@ -22,6 +24,7 @@ const routes: Routes = [
   { path: 'cream', component: CreamComponent },
   { path: 'suki', component: SukiComponent },
   { path: 'hily', component: HilyComponent },
+  { path: 'curso', component: CursoComponent },
 ];
 
 @NgModule({
@@ -35,7 +38,8 @@ const routes: Routes = [
     KittenComponent,
     CreamComponent,
     SukiComponent,
-    HilyComponent
+    HilyComponent,
+    CursoComponent
   ],
   imports: [
     BrowserModule,
